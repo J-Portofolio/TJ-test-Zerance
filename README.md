@@ -45,5 +45,9 @@ Mon plan de bataille a été le suivant:
     
  2- Modules du thème (env 3 heures):
   A- Le formulaire de contact
+    Dans l'idéal, j'aurai souhaité générer conditionnelement le contenu html du formulaire en fonction de son activation ou non via les paramètres du thème.
+    Dans un souci de plutôt optimiser le temps imparti par le projet, j'ai implanté ce code de manière statique dans un snippet rendu dans le contenu de page de l'index du thème.
+    Le paramétrage de l'activation du formulaire via le thème ne permet donc que d'afficher ce dernier dans le menu de navigation du thème, afin de le rendre accessible à tout utilisateur.
+    Concernant la structure du formulaire, j'ai fais dans la sémantique, avec les <fieldset> que j'estimais cohérents, afin de faciliter l'utilisation du grid css plus tard.
     
   
