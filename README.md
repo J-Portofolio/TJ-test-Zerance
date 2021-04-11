@@ -37,6 +37,11 @@ Mon plan de bataille a été le suivant:
       - Les sections 'portofolio' et 'slider' dans le contenu de page du thème (main)
       - La section 'text_infinite' dans le footer du thème.
     Par la suite, j'ai souhaité faire un thème full css, centralisant les variables dans un fichier distinc, le grid-css dans un autre, et les autres règles dans le dernier.
+  B- Images du thème
+    J'ai extrait directement les logos clients du site du studio Zerance, pour les convertir ensuite en png, avant de les importer dans le répertoire "assets" du thème.
+    Le logo Universal a été extrait du fichier de maquette en prenant les dimensions des images extraites juste avant comme référence.
+    L'extraction du trait de soulignage jaune demandé dans le projet a été réalisé via le site également.
+    
   B- Ecriture de la base html et des schemas des sections
     Je me suis beaucoup concentré sur les schemas en premier lieu dans cette partie, imaginant comment automatiser au maximum le rendu du contenu configuré via le thème.
     J'ai tout d'abord généré les ébauches des {% schema %} pour ensuite tester leur viabilité syntaxique et les ajuster au besoin.
@@ -50,4 +55,6 @@ Mon plan de bataille a été le suivant:
     Le paramétrage de l'activation du formulaire via le thème ne permet donc que d'afficher ce dernier dans le menu de navigation du thème, afin de le rendre accessible à tout utilisateur.
     Concernant la structure du formulaire, j'ai fais dans la sémantique, avec les <fieldset> que j'estimais cohérents, afin de faciliter l'utilisation du grid css plus tard.
     
-  
+   Pour pouvoir tester ce formulaire en conditions réelles, lors de l'élaboration de son module javascript de vérification de genre, je me suis concentré de suite sur sa mise en place dans l'overlay, que j'ai également implanté sur le coup.
+   
+   
