@@ -66,4 +66,12 @@ Mon plan de bataille a été le suivant:
    - Utiliser ce genre pour le passer dans une instruction switch, et finalement retourner la réponse appropriée dans une pop-up (La subtilité du "It's a trap" de par sa double référence selon moi habite encore mes pensées à l'heure où j'écris ce compte-rendu).
    - Pour la fermeture du formulaire et de son overlay, j'ai hésité entre utiliser le javascript ou trouver un moyen de jouer avec le css. Hélas je n'ai pu explorer ces pistes faute de temps à ce moment.
    
-   
+## Mise en page CSS (env 1 heure)
+ ### Mise en page générale du thème
+ Pour les largeurs de sections, il m'a fallu tester diverses configurations de classes html, en prenant comme référence le grid-css utilisé, afin de tenter d'obtenir un résultat fidèle à la maquette du projet. Hélas également, je n'ai su effectuer le nécessaire dans le temps imparti afin d'y parvenir.
+ Dans l'idéé, je souhaitais mesurer les hauteurs de sections de la maquette avec un unité de mesure adaptée pour les retranscrire ensuite dans la feuille de style générale de mon thème.
+ 
+ Une fois la mise en forme globale établie, j'aurais ajusté le style du contenu des parties de la page afin de visuellement fidéliser celui-ci à la maquette.
+ ### Le cas portofolio
+ J'ai voulu jouer au "Jean perfectionniste" en ajoutant dans le paramétrage du thème la possibilité de choisir le nombre de logo par ligne de la section portofolio.
+ Afin de rendre la chose viable, j'ai créé une classe custom à mon css-grid afin de prendre en considération la taille dynamique
