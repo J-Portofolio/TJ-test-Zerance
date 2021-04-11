@@ -81,4 +81,4 @@ Mon plan de bataille a été le suivant:
  
 ### Le cas header
 Avec la sémantique html que j'ai choisie pour cette partie de la page (Sections header et bannière imbriqués dans le <header> comme respectivement <nav> et <div>, je projettais de les faire se chevaucher en jouant un petit coup avec la propriété "z-index".
-Pour le bas de l'image du logo du studio qui prend une majeure partie de la hauteur de la section, j'avais pensé à un subterfuge consistant à découper le logo en 3 parties (La tête, le corps de la queue et le bout la queue du chat) afin de contrôler les dimensions de ces éléments et réaliser un rendu fidèle à la mquette.
+Pour le bas de l'image du logo du studio qui prend une majeure partie de la hauteur de la section, j'avais pensé à un subterfuge consistant à découper le logo en 3 parties (La tête, le corps de la queue et le bout la queue du chat) afin de contrôler les dimensions de ces éléments et réaliser un rendu fidèle à la maquette.
