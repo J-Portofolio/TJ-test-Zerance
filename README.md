@@ -8,6 +8,7 @@ Pour ce mini-projet j'ai utilisé:
 - IDE: Atom (https://atom.io/).
 - Grid-css: Simple Grid (https://simplegrid.io/).
 - Lecture et extraction des informations de la maquette: Gimp/Photoshop site https://studiozerance.fr/.
+- API de validation de genre: https://gender-api.com/fr.
 
 Pour accéder au projet:
 
@@ -54,7 +55,15 @@ Mon plan de bataille a été le suivant:
     Dans un souci de plutôt optimiser le temps imparti par le projet, j'ai implanté ce code de manière statique dans un snippet rendu dans le contenu de page de l'index du thème.
     Le paramétrage de l'activation du formulaire via le thème ne permet donc que d'afficher ce dernier dans le menu de navigation du thème, afin de le rendre accessible à tout utilisateur.
     Concernant la structure du formulaire, j'ai fais dans la sémantique, avec les <fieldset> que j'estimais cohérents, afin de faciliter l'utilisation du grid css plus tard.
+  Pour la vérification des valeurs de champs, j'ai ajouté le fameux "required" à chaque balise <input>.
     
    Pour pouvoir tester ce formulaire en conditions réelles, lors de l'élaboration de son module javascript de vérification de genre, je me suis concentré de suite sur sa mise en place dans l'overlay, que j'ai également implanté sur le coup.
+   
+   Concernant le module de validation de genre, j'ai tout simplement utilisé l'attribut "onsubmit" du formulaire, afin d'obtenir directement la valeur saisie dans l'input du prénom comme variable de fonction, appelée via le fichier javascript dédié où celle-ci a été écrite.
+   La fonction de validation en elle-même va donc utiliser la valeur de sa variable afin de, dans des fonctions séparées:
+   - générer l'url de requête de l'Api de validation de genre en utilisant des variables globales comme base.
+   - appeler une fonction de requête fetch avec l'url générée précemment et attendre le réponse avant de retourner la valeur attendue par cette dernière => Le genre.
+   - Utiliser ce genre pour le passer dans une instruction switch, et finalement retourner la réponse appropriée dans une pop-up (La subtilité du "It's a trap" de par sa double référence selon moi habite encore mes pensées à l'heure où j'écris ce compte-rendu).
+   - Pour la fermeture du formulaire et de son overlay, j'ai hésité entre utiliser le javascript ou trouver un moyen de jouer avec le css. Hélas je n'ai pu explorer ces pistes faute de temps à ce moment.
    
    
