@@ -7,7 +7,7 @@ Pour ce mini-projet j'ai utilisé:
 
 - IDE: Atom (https://atom.io/).
 - Grid-css: Simple Grid (https://simplegrid.io/).
-- Lecture et extraction des informations de la maquette: Gimp/Photoshop.
+- Lecture et extraction des informations de la maquette: Gimp/Photoshop site https://studiozerance.fr/.
 
 Pour accéder au projet:
 
