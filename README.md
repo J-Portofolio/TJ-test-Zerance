@@ -35,5 +35,6 @@ Mon plan de bataille a été le suivant:
     - Les sections 'bannière' et 'header' dans le Header du thème.
     - Les sections 'portofolio' et 'slider' dans le contenu de page du thème (main)
     - La section 'text_infinite' dans le footer du thème.
-  Par la suite, j'ai souhaité faire un thème full css, centralisant les variables dans un fichier distinc, le grid-css dans un autre, et les autres règles dans un     dernier
- 2- Ecriture de la base html et des schemas des sections (env 2 Heures
+  Par la suite, j'ai souhaité faire un thème full css, centralisant les variables dans un fichier distinc, le grid-css dans un autre, et les autres règles dans un       dernier
+ 2- Ecriture de la base html et des schemas des sections (env 2 Heures):
+  
