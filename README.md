@@ -72,6 +72,13 @@ Mon plan de bataille a été le suivant:
  Dans l'idéé, je souhaitais mesurer les hauteurs de sections de la maquette avec un unité de mesure adaptée pour les retranscrire ensuite dans la feuille de style générale de mon thème.
  
  Une fois la mise en forme globale établie, j'aurais ajusté le style du contenu des parties de la page afin de visuellement fidéliser celui-ci à la maquette.
+ Pour la police demandée par le projet, je l'ai générée sous les extensions nécessaires à une compatibilité avec un maximum de navigateurs (Je n'ai cependant pas consacré énormément de temps à son implémentation).
+ 
  ### Le cas portofolio
+ J'ai laissé la possibilité de régler les couleurs du fond et du titre de cette section.
  J'ai voulu jouer au "Jean perfectionniste" en ajoutant dans le paramétrage du thème la possibilité de choisir le nombre de logo par ligne de la section portofolio.
- Afin de rendre la chose viable, j'ai créé une classe custom à mon css-grid afin de prendre en considération la taille dynamique
+ Afin de rendre la chose viable, j'ai créé une classe custom à mon css-grid afin de prendre en considération la taille dynamique d'une cellule dans une ligne de largeur appropriée (ici de largeur "5 éléments" pour considérer le fonctionnement du grid-css).
+ 
+### Le cas header
+Avec la sémantique html que j'ai choisie pour cette partie de la page (Sections header et bannière imbriqués dans le <header> comme respectivement <nav> et <div>, je projettais de les faire se chevaucher en jouant un petit coup avec la propriété "z-index".
+Pour le bas de l'image du logo du studio qui prend une majeure partie de la hauteur de la section, j'avais pensé à un subterfuge consistant à découper le logo en 3 parties (La tête, le corps de la queue et le bout la queue du chat) afin de contrôler les dimensions de ces éléments et réaliser un rendu fidèle à la mquette.
